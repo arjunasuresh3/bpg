@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     url(r'^bpg/$', 'bpg.views.index'),
-    url(r'^bpg/(?P<poll_id>\d+)/$', 'bpg.views.detail'),
+    url(r'^bpg/(?P<area_id>\d+)/$', 'bpg.views.detail'),
     # url(r'^$', 'pg.views.home', name='home'),
     # url(r'^pg/', include('pg.foo.urls')),
 

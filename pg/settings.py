@@ -106,7 +106,7 @@ ROOT_URLCONF = 'pg.urls'
 WSGI_APPLICATION = 'pg.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/home/arjun/djangofb/pg/area_templates"
+    "/home/arjun/djangofb/pg/templates"
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
