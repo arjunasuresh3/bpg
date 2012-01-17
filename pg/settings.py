@@ -106,6 +106,7 @@ ROOT_URLCONF = 'pg.urls'
 WSGI_APPLICATION = 'pg.wsgi.application'
 
 TEMPLATE_DIRS = (
+    "/home/arjun/djangofb/pg/area_templates"
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -122,7 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    #'bpg',
+    'bpg',
 )
 
 # A sample logging configuration. The only tangible logging
