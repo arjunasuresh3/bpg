@@ -4,10 +4,12 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
-    # Examples:
-    url(r'^bpg/$', 'bpg.views.index'),
-    url(r'^bpg/(?P<area_id>\d+)/$', 'bpg.views.detail'),
+urlpatterns = patterns('bpg.views',
+    url(r'^bpg/$', 'index'),
+    url(r'^bpg/(?P<area_id>\d+)/$', 'detail'),
+)
+
+urlpatterns += patterns('',
     # url(r'^$', 'pg.views.home', name='home'),
     # url(r'^pg/', include('pg.foo.urls')),
 
