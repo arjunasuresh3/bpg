@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Paying Guest - Bangalore{% endblock %}
+{% block sidebar %}
+<ul>
+  {% for area in area_list %}
+  <li><a href="/bpg/{{ area.id }}/">{{ area.area_name }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
+{% block content %}
+<h1>{{ pgs.area_name }}</h1>
+<table border="1">
+{% for pg in pgs.pglist_set.all %}
+<tr>
+<td>{{ pg.pname }}</td>
+<td>{{ pg.paddress }}</td>
+<td>{{ pg.phone }}</td>
+<td>{{ pg.prdes }}</td>
+</tr>
+<br>
+{% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Paying Guest - Bangalore{% endblock %}
+
+{% block content %}
+<ul>
+  {% for area in area_list %}
+  <li><a href="/bpg/{{ area.id }}/">{{ area.area_name }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
+

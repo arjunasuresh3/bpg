@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>{% block title %}Paying Guest - Bangalore{% endblock %}</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main">
+    <div id="sidebar">
+        {% block sidebar %}
+        {% endblock %}
+    </div>
+
+</div>
+
+<table width="766" style="height:100%;  " border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td valign="top">
+      
+      <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	  <td height="161" valign="top">
+	    
+	    <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+		<td height="66" valign="top">
+		  
+		  <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+		      <td width="16" valign="top"></td>
+		      <td width="733" valign="top" style="background:url(images/bg.jpg) top left no-repeat  ">
+			<div align="right">
+			  <a href="#"><img src="images/b.gif" alt="" border="0"></a><a href="#"><img src="images/b1.gif" alt="" border="0"></a><a href="#"><img src="images/b2.gif" alt="" border="0"></a><a href="#"><img src="images/b3.gif" alt="" border="0"></a><a href="#"><img src="images/b4.gif" alt="" border="0"></a><a href="#"><img src="images/b5.gif" alt="" border="0"></a>
+			</div>				
+		      </td>
+		      <td width="17" valign="top"></td>
+		    </tr>
+		  </table>
+		  
+		</td>
+	      </tr>
+	      <tr>
+		<td height="95" valign="top">
+		  
+		  <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+		      <td width="195" valign="top">
+			<div style="margin:26px 0px 0px 13px; ">
+			  <img src="images/logo.gif" alt="">
+			  </div>
+			  
+			</td>
+			<td width="550" valign="top" style="background-color:#DDDDDD ">
+			  
+			  <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+			    <tr>
+			      <td height="5" valign="top"></td>
+			    </tr>
+			    <tr>
+			      <td height="100%" valign="top">
+				
+				<table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <td width="276" valign="top" style="background:url(images/px.gif) right repeat-y  " class="head">
+				      <div style="margin:6px 17px 0px 10px; ">
+					<img src="images/pic.jpg" alt="" style="margin-right:19px; " align="left"><br style="line-height:8px; ">
+					  <span>23 July 2006</span><br>
+					  <strong>POSH AND DECKS</strong><br>
+					  After 7 years, Beckhams are still so in love...
+					</div>
+					
+				      </td>
+				      <td width="274" valign="top" class="head">
+					<div style="margin:6px 11px 0px 10px; ">
+					  <img src="images/pic1.jpg" alt="" style="margin-right:19px; " align="left"><br style="line-height:8px; ">
+					    <span>23 July 2006</span><br>
+					    <strong>EXCLUSIVE: SO LONG ALONSO</strong><br>
+					    Real line up£20m bid for Anfield ace EXCLUSIVE...
+					  </div>						
+					</td>
+				      </tr>
+				    </table>
+				    
+				  </td>
+				</tr>
+				<tr>
+				  <td height="3" valign="top"></td>
+				</tr>
+			      </table>
+			      
+			    </td>
+			    <td width="21" valign="top"></td>
+			  </tr>
+			</table>
+			
+		      </td>
+		    </tr>
+		  </table>
+		  
+		</td>
+	      </tr>
+	      <tr>
+		<td height="572" valign="top">
+		  
+		  <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+		      <td width="16" valign="top"></td>
+		      <td width="179" valign="top" style="background:url(images/bg1.gif) top no-repeat #295D82 " class="category">
+			<div style="margin:12px 5px 5px 11px; ">
+			  <img src="images/tx.gif" alt=""><br>
+			    <img src="images/spacer.gif" alt="" width="1" height="10"><br>
+			      <ul>
+				<li><strong><a href="#">Our City</a></strong></li>
+				<li><strong><a href="#">World</a></strong></li>
+				<li><strong><a href="#">Business</a></strong></li>
+			      </ul>
+			      <img src="images/spacer.gif" alt="" width="1" height="2"><br>
+				<img src="images/a3.gif" alt="" style="margin-left:3px; margin-right:12px; "><strong><a href="#">Media</a></strong><br>
+				<img src="images/spacer.gif" alt="" width="1" height="8"><br>
+				  &nbsp; <strong>Sport</strong><br>
+				  <img src="images/spacer.gif" alt="" width="1" height="4"><br>
+				    <img src="images/l.gif" alt=""><br>
+				      <img src="images/spacer.gif" alt="" width="1" height="1"><br>
+					<ul>
+					  <li><a href="#">Cricket</a></li>
+					  <li><a href="#">General</a></li>
+					  <li><a href="#">Football</a></li>
+					  <li><a href="#">Motor Racing</a></li>
+					  <li><a href="#">Olympics</a></li>
+					  <li><a href="#">Sports Politics</a></li>
+					</ul>
+					<img src="images/spacer.gif" alt="" width="1" height="3"><br>
+					  <img src="images/a3.gif" alt="" style="margin-left:3px; margin-right:12px; "><a href="#">Media</a><br>
+					  <img src="images/spacer.gif" alt="" width="1" height="8"><br>
+					    &nbsp; <strong>Comment</strong><br>
+					    <img src="images/spacer.gif" alt="" width="1" height="4"><br>
+					      <img src="images/l.gif" alt=""><br>
+						<img src="images/spacer.gif" alt="" width="1" height="1"><br>
+						  <ul>
+						    <li><a href="#">Leading Articles</a></li>
+						    <li><a href="#">Letters</a></li>
+						    <li><a href="#">Commentators</a></li>
+						    <li><a href="#">Podium</a></li>
+						  </ul>
+						  <img src="images/spacer.gif" alt="" width="1" height="2"><br>
+						    <img src="images/a3.gif" alt="" style="margin-left:3px; margin-right:12px; "><a href="#">Regular Columnists</a><br>
+						    <img src="images/spacer.gif" alt="" width="1" height="8"><br>
+						      &nbsp; <strong>Special report</strong><br>
+						      <img src="images/spacer.gif" alt="" width="1" height="4"><br>
+							<img src="images/l.gif" alt=""><br>
+							  <img src="images/spacer.gif" alt="" width="1" height="1"><br>
+							    <ul>
+							      <li><a href="#">Lorem ipsum dolor sit.</a></li>
+							      <li><a href="#">Amet, consectetuer.</a></li>
+							      <li><a href="#">Adipiscing elit.</a></li>
+							      <li><a href="#">Praesent vestibulum.</a></li>
+							      <li><a href="#">Lorem ipsum.</a></li>
+							      <li><a href="#">Lorem ipsum dolor sit.</a></li>
+							    </ul>
+							    <img src="images/spacer.gif" alt="" width="1" height="2"><br>
+							      <img src="images/a3.gif" alt="" style="margin-left:3px; margin-right:12px; "><span><a href="#">view more</a></span>
+							    </div>
+							    
+							  </td>
+							  <td width="551" valign="top">
+							    
+							    <div id="content">
+							      {% block content %}{% endblock %}
+							    </div>
+							    <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+							      <tr>
+								<td width="16" valign="top"></td>
+								<td width="729" valign="top" style="background:url(images/px_copy.gif) top repeat-x #515151 " class="copy">
+								  <div style="margin:24px 0px 0px 20px; ">
+								    Copyright 2006 &copy; newspaper online<br>
+								    All rights reserved.
+								  </div>
+								  
+								</td>
+								<td width="21" valign="top"></td>
+							      </tr>
+							    </table>
+							    
+							  </td>
+							</tr>
+							<tr>
+							  <td height="100%" valign="top">
+							    
+							    <table width="100%" style="height:100%;  " border="0" cellspacing="0" cellpadding="0">
+							      <tr>
+								<td width="16" valign="top"></td>
+								<td width="729" valign="top" style="background-color:#515151"></td>
+								<td width="21" valign="top"></td>
+							      </tr>
+							    </table>
+							    
+							  </td>
+							</tr>
+						      </table>
+						      
+						    </td>
+						  </tr>
+						</table>
+
+					      </body>
+					    </html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style type="text/css">
+div#sidebar
+{
+width:220px;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+float: left;
+}
+div#content
+{
+width:750px;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+float: right;
+}
+</style>
+
+</head>
+
+<body>
+<div id="main">
+    <div id="sidebar">
+        {% block sidebar %}
+        {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</div>
+</body>
+</html>

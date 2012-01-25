@@ -1,0 +1,10 @@
+<h1>{{ pgs.area_name }}</h1>
+<ul>
+{% for pg in pgs.pglist_set.all %}
+<li>{{ pg.pname }}</li>
+<li>{{ pg.paddress }}</li>
+<li>{{ pg.phone }}</li>
+<li>{{ pg.prdes }}</li>
+<br>
+{% endfor %}
+</ul>
