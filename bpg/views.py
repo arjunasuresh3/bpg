@@ -9,7 +9,7 @@ def index(request):
 def detail(request, area_id):
     try:
         a = Area.objects.get(pk=area_id)
-        area_list = Area.objects.all()        
+        area_list = Area.objects.all()[:5]        
     except Area.DoesNotExist:
         raise Http404
     return render_to_response('area_templates/detail.html', {'pgs': a, 'area_list': area_list})

@@ -2,10 +2,14 @@
 
 {% block title %}Paying Guest - Bangalore{% endblock %}
 
-{% block content %}
-<ul>
+{% block area_list_side_menu %}
   {% for area in area_list %}
   <li><a href="/bpg/{{ area.id }}/">{{ area.area_name }}</a></li>
   {% endfor %}
-</ul>
+{% endblock %}
+
+{% block content %}
+<p>When I first came to bangalore, It was very hard to find out who is providing paying guest (PG) accommodation. 
+So I have collected information about the paying guests available in bangalore and posted here area-wise.
+In case if you people find information provided here is wrong, Please let me know. I will update it ASAP.</p>
 {% endblock %}

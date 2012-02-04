@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 
-{% block title %}Paying Guest - Bangalore{% endblock %}
-{% block sidebar %}
-<ul>
+{% block title %}{{pgs.area_name}}{% endblock %}
+
+{% block area_list_side_menu %}
   {% for area in area_list %}
   <li><a href="/bpg/{{ area.id }}/">{{ area.area_name }}</a></li>
   {% endfor %}
-</ul>
 {% endblock %}
+
 {% block content %}
 <h1>{{ pgs.area_name }}</h1>
-<table border="1">
+<table width="500px" border="1">
 {% for pg in pgs.pglist_set.all %}
 <tr>
 <td>{{ pg.pname }}</td>
@@ -18,7 +18,6 @@
 <td>{{ pg.phone }}</td>
 <td>{{ pg.prdes }}</td>
 </tr>
-<br>
 {% endfor %}
 </table>
 {% endblock %}
