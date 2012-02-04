@@ -8,16 +8,34 @@
   {% endfor %}
 {% endblock %}
 
+        <article>
+            <section>
+                <h1>Bangalore PG</h1>
+		<figure>
+                  <img src="/static/images/home1.jpg" width="300" height="350" alt="Home">
+                </figure>
+            </section>
+        </article>
+
 {% block content %}
-<h1>{{ pgs.area_name }}</h1>
-<table width="500px" border="1">
 {% for pg in pgs.pglist_set.all %}
-<tr>
-<td>{{ pg.pname }}</td>
-<td>{{ pg.paddress }}</td>
-<td>{{ pg.phone }}</td>
-<td>{{ pg.prdes }}</td>
-</tr>
+<article>
+  <section>
+    <h1>{{ pgs.area_name }}</h1>
+    <p>		      
+      {{ pg.pname }}
+    </p>
+    <p>		      
+      {{ pg.paddress }}
+    </p>
+    <p>		      
+      {{ pg.phone }}
+    </p>
+    <p>		      
+      {{ pg.prdes }}
+    </p>
+  </section>
+</article>
 {% endfor %}
 </table>
 {% endblock %}
