@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <title>{% block title %}Paying Guest - Bangalore{% endblock %}</title>
+  <link rel="SHORTCUT ICON" href="/static/images/pg.ico"/>
   <link rel="stylesheet" href="/static/css/style.css" type="text/css" media="all" />
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script type="text/javascript" src="/static/js/pg.js"></script>
@@ -25,6 +26,14 @@
                     </ul>
                 </li>
                 <li><a href="#">Contact</a></li>
+                <li>
+		  <form autocomplete="off" >
+		    <p>
+		      Search Areas:
+		      <input type="text" id="q" />
+		    </p>
+		  </form>
+                </li>
             </ul>
         </nav>
     </aside>
@@ -34,7 +43,7 @@
             <section>
                 <h1>Bangalore PG</h1>
 		<figure>
-                  <img src="/static/images/home1.jpg" width="300" height="350" alt="Home">
+                  <img src="/static/images/pg.jpg" width="300" height="350" alt="PG">
                 </figure>
 		<p>		      {% block content %}{% endblock %}
 		</p>
