@@ -8,6 +8,7 @@ admin.autodiscover()
 urlpatterns = patterns('bpg.views',
     url(r'^bpg/$', 'index'),
     url(r'^bpg/(?P<area_id>\d+)/$', 'detail'),
+    url(r'^bpg/asearch/$', 'areas_search'),    
 )
 
 urlpatterns += patterns('',
